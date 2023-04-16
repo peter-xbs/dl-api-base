@@ -1,10 +1,10 @@
 # 基本信息
 快速搭建基于GPU的API服务，基于aliyun/algorithm-base改造而来
-********************************
-# 说明
+
+## 说明
 这是一个AB框架的项目模板，除hadoop，hive，spark功能之外，都已在模板中启用。
   
-# 项目目录结构
+## 项目目录结构
 ```
 ├── algorithms
 ├── config
@@ -24,12 +24,12 @@
 - `docker`放docker打包脚本
 - `setup`放项目依赖相关脚本
 
-# 构建镜像
+## 构建镜像
 ```
 sh build.sh
 ```
 
-# 启动容器
+## 启动容器
 ```
 docker run -it -v $PWD/logs:/root/app/logs -p <your-host-port>:80 --restart=always simple
 ```
