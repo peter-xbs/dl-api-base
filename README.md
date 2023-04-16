@@ -1,3 +1,4 @@
+# 快速搭建基于GPU的API服务，基于aliyun/algorithm-base改造而来
 # 说明
 这是一个AB框架的项目模板，除hadoop，hive，spark功能之外，都已在模板中启用。
   
