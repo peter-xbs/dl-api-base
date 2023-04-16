@@ -1,6 +1,5 @@
-# Basic Info
+# GPU-based API base 
 
-快速搭建基于GPU的API服务
 
 基于aliyun/algorithm-base改造而来
 
